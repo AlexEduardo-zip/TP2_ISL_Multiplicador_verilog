@@ -1,0 +1,120 @@
+$date
+	Mon Dec  5 00:45:37 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mbs_tb $end
+$var wire 16 ! produto [15:0] $end
+$var reg 1 " clock $end
+$var reg 8 # multiplicador [7:0] $end
+$var reg 8 $ multiplicando [7:0] $end
+$var reg 1 % start $end
+$scope module uut $end
+$var wire 1 " clock $end
+$var wire 8 & multiplicador [7:0] $end
+$var wire 8 ' multiplicando [7:0] $end
+$var wire 16 ( produto [15:0] $end
+$var wire 1 % start $end
+$var reg 16 ) multiplicador_reg [15:0] $end
+$var reg 16 * multiplicando_reg [15:0] $end
+$var reg 16 + produto_reg [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+bx !
+$end
+#50000
+b0 )
+b0 *
+b0 !
+b0 (
+b0 +
+1"
+#100000
+0"
+b1101 #
+b1101 &
+b101010 $
+b101010 '
+#150000
+b1101 )
+b101010 *
+1"
+#200000
+0"
+#250000
+b1101 )
+b101010 *
+1"
+#300000
+0"
+1%
+#350000
+b110 )
+b1010100 *
+b101010 !
+b101010 (
+b101010 +
+1"
+#400000
+0"
+#450000
+b11 )
+b10101000 *
+1"
+#500000
+0"
+#550000
+b1 )
+b101010000 *
+b11010010 !
+b11010010 (
+b11010010 +
+1"
+#600000
+0"
+#650000
+b0 )
+b1010100000 *
+b1000100010 !
+b1000100010 (
+b1000100010 +
+1"
+#700000
+0"
+#750000
+b10101000000 *
+1"
+#800000
+0"
+#850000
+b101010000000 *
+1"
+#900000
+0"
+#950000
+b1010100000000 *
+1"
+#1000000
+0"
+#1050000
+b10101000000000 *
+1"
+#1100000
+0"
